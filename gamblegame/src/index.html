@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GambleZone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Welcome to the Gamble Zone</h1>
+        <div id="petsRow" class="row">
+          <div id="lb-username" class="lb-username">loading...</div>
+          <label>代币 : </label><label id="lb-balance" class="lb-balance">loading...</label><label> MC </label></br>
+          <button class="btn-owner">游戏地址</button>
+          <!-- <button class="btn-accounts">领钱资格</button> -->
+          <button class="btn-bonus">领取低保</button>
+          </br>
+          </br>
+          <p>-----------------------------------------------------------------------------------------------------</p>
+          <div>
+            <label class="lb-game-pool">loading...</label>
+            </br>
+            <input class='et-bid' style="width: 300px;" type="number" placeholder="输入参与游戏的金额，最小单位为1"/>
+            <button class="btn-bid">参加大奖池游戏</button>
+            <button class="btn-extend-bid">test bid</button>
+            <button class="btn-transfer">转账给好友</button>
+          </div>
+          </br>
+          </br>
+          <h4>说明：</h4>
+          <p>低保--每30分钟可以领取一次低保</p>
+          <p>大奖池--每30分钟开一次奖,每一笔新的投入,时间将按照每3个MC延长5分钟计算,奖池100%给与最后5名投资最大玩家</p>
+        </div>
+    </div>
+
+      <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/web3.min.js"></script>
+      <script src="js/truffle-contract.js"></script>
+
+      <script src="js/app.js"></script>
+
+</body>
+</html>
